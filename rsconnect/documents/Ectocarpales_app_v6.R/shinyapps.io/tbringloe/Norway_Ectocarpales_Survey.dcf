@@ -1,0 +1,12 @@
+name: Norway_Ectocarpales_Survey
+title: Norway_Ectocarpales_Survey
+username: tbringloe
+account: tbringloe
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 16190589
+bundleId: 11764908
+url: https://tbringloe.shinyapps.io/Norway_Ectocarpales_Survey/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

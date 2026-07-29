@@ -1,0 +1,6 @@
+Phylogenies are maximum likelihood as constructed using RAxML
+
+Data were imported into R (R Core Team 2025) and using ape (Paradis and Schliep 2019) and phangorn (Schliep 2011; Schliep et al. 2017) packages, sequences were clustered and classified at a 2% threshold. Associated metadata were used to infer geographic distribution of all clusters. A single cluster representative was randomly chosen using the seqinr package (Charif and Lobry 2007) in R, and new alignments were made for each family using MAFFT. A maximum-likelihood tree was constructed using RAxML (Stamatakis 2014) using a GTR GAMMA I substitution model, with partitioning by codon position and 100 bootstrap replicates. The finalized tree was imported into R and plotted using ggtree (Guangchuang 2020). Geographic locations of the coxI clusters was also plotted as a heatmap using ggplot (Wickham 2016) in R. These figures  are presented here as supplemental.
+
+One asterisk means species identification was updated for the exact record
+Two asterisks indicate species identification was updated based on concensus from other GenBank records
