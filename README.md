@@ -1,6 +1,8 @@
 # Norwegian_Ectocarpales_Explororer
 The Fehu rune symbol ᚠ means wealth, prosperity, and abundance, a reflection of the dominance of Ectocarpales in terms of brown algal species diversity
 
+The app is currently live and hosted by shiny.io: https://tbringloe.shinyapps.io/Norway_Ectocarpales_Survey/
+
 The repository hosts a shiny app for exploring Ectocarpales (Phaeophyceae) sequences generated through molecular-morphological surveys conducted in Norway from 2022-2024, funded through the Norwegian Taxonomic Initiative awarded to Kjersti et al.
 
 The app has several features. User inputs include exploring Norwegian survey specific data and/or GenBank data. These data have been curated based on recent literature and taxonomic findings. The User determines which taxa to include by narrowing down the taxonomic fields. A distance model is specified and the tree is computed.
