@@ -26,6 +26,15 @@ Data were imported into R (R Core Team 2025) and using ape (Paradis and Schliep 
 Nodes without a boostrap value have less than 50% support.
 One asterisk means species identification was updated for the exact record.
 Two asterisks indicate species identification was updated based on concensus from other GenBank records.
+SEP=Southeast Pacific (e.g. Chile)
+NWP=Northwest Pacific (i.e., China through to Russia)
+NEP=Northeast Pacific (i.e., California through Gulf of Alaska)
+ARC=Arctic (i.e., Bering Sea through Arctic to Labrador [Canada], Iceland, and Northern Norway)
+NWA=Northwest Atlantic (i.e., Newfoundland through to Rhode Island)
+NEA=Northeast Atlantic (i.e., Norway through to Spain)
+MED=Mediterranean
+Other=other global locations (e.g., Australia)
+Current=new sequences presented through current survey 
 
 ![Acinetosporaceae ML tree](Static_ML_trees/Fig.S1.Acinetosporaceae_29vii26.jpg)
 
