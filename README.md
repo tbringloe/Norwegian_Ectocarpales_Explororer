@@ -16,3 +16,22 @@ This shiny app accompanies the publication of Goerke et al. (2026): An update of
 To reiterate, as noted above, tree performance is not optimized. Users can log concerns through the repo. The shiny app is simply intended to showcase the state of knowledge at the time of publication. We look forward to further advancements in the near future.
 
 We encourage users to adapt this app for other taxonomic studies and to improve user accessibility for molecularly assisted taxonomic surveys. Please see LICENCE.
+
+Below are static ML trees:
+
+Phylogenies are maximum likelihood as constructed using RAxML
+
+Data were imported into R (R Core Team 2025) and using ape (Paradis and Schliep 2019) and phangorn (Schliep 2011; Schliep et al. 2017) packages, sequences were clustered and classified at a 2% threshold. Associated metadata were used to infer geographic distribution of all clusters. A single cluster representative was randomly chosen using the seqinr package (Charif and Lobry 2007) in R, and new alignments were made for each family using MAFFT. A maximum-likelihood tree was constructed using RAxML (Stamatakis 2014) using a GTR GAMMA I substitution model, with partitioning by codon position and 100 bootstrap replicates. The finalized tree was imported into R and plotted using ggtree (Guangchuang 2020). Geographic locations of the coxI clusters was also plotted as a heatmap using ggplot (Wickham 2016) in R. These figures  are presented here as supplemental.
+
+One asterisk means species identification was updated for the exact record
+Two asterisks indicate species identification was updated based on concensus from other GenBank records
+
+![Acinetosporaceae ML tree](Static_ML_trees/Fig.S1.Acinetosporaceae_29vii26.jpg)
+
+![Ectocarpaceae ML tree](Static_ML_trees/Fig.S2.Ectocarpaceae_29vii26.jpg)
+
+![Scytosiphonaceae ML tree](Static_ML_trees/Fig.S3.Scytosiphonaceae_29vii26.jpg)
+
+![Chordariaceae_1 ML tree](Static_ML_trees/Fig.S4.Chordariaceae_1_29vii26.jpg)
+
+![Chordariaceae_2 ML tree](Static_ML_trees/Fig.S5.Chordariaceae_2_29vii26.jpg)
